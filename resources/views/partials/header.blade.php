@@ -1,17 +1,17 @@
 <header class="mr_bg-header">
     <div class="container">
-        <div class="row text-withe">
+        <div class="row">
             {{-- menu links --}}
             <div class="col fw-bold">
                 <ul class="d-flex align-items-center mb-0 list-unstyled gap-3">
                     <li>
-                        Donna
+                        <a class="text-decoration-none text-white" href="#">Donna</a>
                     </li>
                     <li>
-                        Uomo
+                         <a class="text-decoration-none text-white" href="#">Uomo</a>
                     </li>
                     <li>
-                        Bambino
+                         <a class="text-decoration-none text-white" href="#">Bambino</a>
                     </li>
                 </ul>
                 {{-- menu links --}}
