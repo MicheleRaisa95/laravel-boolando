@@ -1,4 +1,4 @@
-<footer class="mr_bg-footer">
+<div class="mr_bg-footer">
 <div class="container text-white py-3">
         <div class="row d-flex justify-content-between">
             {{-- sezione di sinistra --}}
@@ -34,4 +34,4 @@
 
     
 </div>
-</footer>
+</div>

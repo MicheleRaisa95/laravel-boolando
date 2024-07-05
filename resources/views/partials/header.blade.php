@@ -1,4 +1,4 @@
-<header class="mr_bg-header">
+<div class="mr_bg-header">
     <div class="container">
         <div class="row">
             {{-- menu links --}}
@@ -8,10 +8,10 @@
                         <a class="text-decoration-none text-white" href="#">Donna</a>
                     </li>
                     <li>
-                         <a class="text-decoration-none text-white" href="#">Uomo</a>
+                        <a class="text-decoration-none text-white" href="#">Uomo</a>
                     </li>
                     <li>
-                         <a class="text-decoration-none text-white" href="#">Bambino</a>
+                        <a class="text-decoration-none text-white" href="#">Bambino</a>
                     </li>
                 </ul>
                 {{-- menu links --}}
@@ -31,4 +31,4 @@
                 {{-- /icone --}}
         </div>
     </div>
-</header>
+</div>
