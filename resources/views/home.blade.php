@@ -1,33 +1,17 @@
 @extends('layouts.app')
 
 @section('title')
-
 HOME
-
 @endsection
 
 @section('main')
 <div class="container py-5">
-<div class="row g-3">
-    <div class="col-4">
-        {{-- card prodotto --}}
-        <div class="card-img position-relative">
-            <img src="{{ Vite::asset('resources/img/1.webp') }}" alt="prodotto1" class="w-100">
-            <span class="mr_like">&hearts;</span>
-            <div class="mr_labels">
-                <span class="mr_discount">-50%</span>
-                <span class="mr_category">
-                    sostenibilità
-                </span>
-            </div>
+    <div class="row g-3">
+        @foreach ($products as $product)
+        <div class="col-4">
+            @include('partials.product-card')
         </div>
-        <div class="card-text d-flex flex-column">
-            <span>Levi's</span>
-            <span>Relaxed Fit Tee Unisex</span>
-            <p><span>14,99 €</span>29,99 €</p>
-        </div>
-        {{-- /card prodotto --}}
+        @endforeach 
     </div>
-</div>
 </div>
 @endsection
